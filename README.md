@@ -1,10 +1,9 @@
 # Timileyin Pelumi
 
-Backend engineer. I build the systems AI products run on.
-
-My main one is an AI website builder with more than 3,000 live customer projects,
-each in its own container. I also work on agent platforms, and before that I built
-payments and marketplace backends.
+Senior backend engineer working on AI products. Most of my time goes to the infrastructure
+for an AI website builder, which has more than 3,000 customer projects, each running in its
+own Kubernetes pod. I also work on vertical AI agent platforms, where I build the four gateway
+services that connect agents to models, customer systems, messaging channels, and tools.
 
 **Stack:** Python · Go · Rust · TypeScript · Postgres · RabbitMQ/Celery · Kubernetes · MCP
 
@@ -12,10 +11,6 @@ payments and marketplace backends.
 jobs and step workflows on Bun and Postgres. Jobs commit inside your own transaction,
 and a crashed workflow resumes at the first unfinished step. It handled 4,750 jobs/s
 across 8 workers on a laptop.
-
-**Writing:** [how a container-per-customer AI builder works](https://timileyin.dev/writing/infrastructure-under-an-ai-site-builder/),
-[finding the real cause of a bad AI generation](https://timileyin.dev/writing/debugging-ai-pipelines/),
-and [the four gateways an agent platform needs](https://timileyin.dev/writing/gateways-for-agent-platforms/).
 
 [Website](https://timileyin.dev) · [X](https://x.com/timileyindev) ·
 [hello@timileyin.dev](mailto:hello@timileyin.dev)
